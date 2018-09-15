@@ -11,7 +11,7 @@ class LinkedList:
     def __init__(self, debug=False):
         self.head = None
 
-    def add(self, data=None):
+    def append(self, data=None):
 
         temp = Node(data)
 
@@ -32,28 +32,40 @@ class LinkedList:
             print('DATA: ',pointer.dataNode, ' NEXT NODE: ', pointer.nextNode)
             pointer = pointer.nextNode
 
+    def len(self):
+        count = 0
+        pointer = self.head
+        while pointer.nextNode != None:
+            count = count + 1
+            pointer = pointer.nextNode
+        return count
+
 
 link = LinkedList()
 
-link.add(0)
-link.add(1)
-link.add(2)
-link.add(3)
-link.add(4)
+link.append(0)
+link.append(1)
+link.append(2)
+link.append(3)
+link.append(4)
 
 link.showLinkedList()
 
 print('-'*20)
 
-'''
-OUTPUT:
-********** Linked List **********
-('HEAD DATA: ', 0, ' NEXT NODE: ', <__main__.Node instance at 0x10ab246c8>)
+print('Length', link.len() )
 
-('DATA: ', 0, ' NEXT NODE: ', <__main__.Node instance at 0x10ab246c8>)
-('DATA: ', 1, ' NEXT NODE: ', <__main__.Node instance at 0x10ab24710>)
-('DATA: ', 2, ' NEXT NODE: ', <__main__.Node instance at 0x10ab24758>)
-('DATA: ', 3, ' NEXT NODE: ', <__main__.Node instance at 0x10ab247a0>)
+print('-'*20)
+'''
+********** Linked List **********
+('HEAD DATA: ', 0, ' NEXT NODE: ', <__main__.Node instance at 0x10cc6e7a0>)
+
+('DATA: ', 0, ' NEXT NODE: ', <__main__.Node instance at 0x10cc6e7a0>)
+('DATA: ', 1, ' NEXT NODE: ', <__main__.Node instance at 0x10cc6e7e8>)
+('DATA: ', 2, ' NEXT NODE: ', <__main__.Node instance at 0x10cc6e830>)
+('DATA: ', 3, ' NEXT NODE: ', <__main__.Node instance at 0x10cc6e878>)
+--------------------
+('Length', 4)
 --------------------
 '''
 
