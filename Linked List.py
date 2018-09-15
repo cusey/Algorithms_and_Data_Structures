@@ -1,3 +1,5 @@
+#python 3.5.2
+
 print ( '********** Linked List **********' )
 
 class Node:
@@ -41,10 +43,19 @@ link.add(4)
 
 link.showLinkedList()
 
-
-
-
-
 print('-'*20)
+
+'''
+OUTPUT:
+********** Linked List **********
+('HEAD DATA: ', 0, ' NEXT NODE: ', <__main__.Node instance at 0x10ab246c8>)
+
+('DATA: ', 0, ' NEXT NODE: ', <__main__.Node instance at 0x10ab246c8>)
+('DATA: ', 1, ' NEXT NODE: ', <__main__.Node instance at 0x10ab24710>)
+('DATA: ', 2, ' NEXT NODE: ', <__main__.Node instance at 0x10ab24758>)
+('DATA: ', 3, ' NEXT NODE: ', <__main__.Node instance at 0x10ab247a0>)
+--------------------
+'''
+
 
 
