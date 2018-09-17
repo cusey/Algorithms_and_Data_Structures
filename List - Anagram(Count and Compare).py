@@ -1,22 +1,5 @@
 #python 3.5.2
 
-'''
-Python Built-in Functions: (https://docs.python.org/3/library/functions.html)
-ord(c) - Given a string representing one Unicode character, return an integer representing the Unicode code 
-point of that character. For example, ord('a') returns the integer 97 and ord('€') (Euro sign) returns 8364.
-This is the inverse of chr().
-
-Python list initialization - http://zetcode.com/lang/python/lists/
-Sometimes we need to initialize a list in advance to  have a particular number of elements. 
-[0]*26 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-[0 for i in range(26)]  =  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-
-The method cmp() compares elements of two lists. (https://www.tutorialspoint.com/python/list_cmp.htm ) - Python 3 does not have cmp
-"(If you really need the cmp() functionality, you could use the expression (a > b) - (a < b) as the equivalent for cmp(a, b).)"
-
-'''
-
-
 def countOccurance(word):
     countLetters = [0]*26
     for x in word:
