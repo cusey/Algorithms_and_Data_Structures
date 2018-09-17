@@ -31,7 +31,7 @@ I used the Python Built-in **Any** Function to check if the list contains all No
 
 * [Any Method - Programiz](https://www.programiz.com/python-programming/methods/built-in/any)
 
-# List - Anagram(Count and Compare)
+# List - Anagram (Count and Compare)
 
 
 ### Description
