@@ -35,7 +35,7 @@ I used the Python Built-in **Any** Function to check if the list contains all No
 
 Sort and Compare - So, if we begin by sorting each string alphabetically, from a to z, we will end up with the same string if the original two strings are anagrams
 
-### Programming notes
+### Programming Notes
 
 I used the Python Build-in **Sort** Function to alphabetical order the two lists before comparing the two lists together to see if they are the same.
 
@@ -70,6 +70,13 @@ Python 3 does not have cmp. If you really need the cmp() functionality, you coul
 ## Neting List
 
 ## Stack - Decimal to Binary Conversion
+
+### Programming Notes
+
+I used a Stack Data Structure.
+
+### References  
+* [Decimal to Binary Conversion](https://www.electronics-tutorials.ws/binary/bin_2.html)
 
 ## Stack - Simple Balanced Parentheses
 
