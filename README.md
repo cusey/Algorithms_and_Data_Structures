@@ -27,7 +27,7 @@ true. If the iterable is empty, return False.
 
 ### References
 
-*[Any Method - Programiz](https://www.programiz.com/python-programming/methods/built-in/any)
+* [Any Method - Programiz](https://www.programiz.com/python-programming/methods/built-in/any)
 
 
 ## List - Anagram (Sort and Compare)
