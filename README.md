@@ -31,6 +31,28 @@ I used the Python Built-in **Any** Function to check if the list contains all No
 
 * [Any Method - Programiz](https://www.programiz.com/python-programming/methods/built-in/any)
 
+# List - Anagram(Count and Compare)
+
+
+### Description
+
+First I initialize two arrays with all zeroes this will prepresent each letter in the alphabet.  Then I count the occuance of letter in both strings.  After counting the occurance of each letter I check to see if both string have the same number letter in each string.
+
+### Programming Notes
+
+ord(c) - Given a string representing one Unicode character, return an integer representing the Unicode code point of that character. For example, ord('a') returns the integer 97 and ord('€') (Euro sign) returns 8364.
+
+Sometimes we need to initialize a list in advance to  have a particular number of elements. 
+[0]*26 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0 for i in range(26)] =  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Python 3 does not have cmp. If you really need the cmp() functionality, you could use the expression (a > b) - (a < b) as the equivalent for cmp(a,b).)
+
+### References  
+
+* [Python list initialization - Zetcode ](http://zetcode.com/lang/python/lists/)
+* [Compare List - Tutorialspoint](https://www.tutorialspoint.com/python/list_cmp.htm)
+* [Cmp doesn't exist in Python 3](https://stackoverflow.com/questions/22490366/cmp-isnt-woking-for-me-python)
 
 # List - Anagram (Sort and Compare)
 
@@ -45,28 +67,6 @@ I used the Python Build-in **Sort** Function to alphabetical order the two lists
 ### References
 
 * [Sorting HOW TO](https://docs.python.org/3.3/howto/sorting.html)
-
-# List - Anagram(Count and Compare)
-
-### Description
-
-First I initialize two arrays with all zeroes this will prepresent each letter in the alphabet.  Then I count the occuance of letter in both strings.  After counting the occurance of each letter I check to see if both string have the same number letter in each string. 
-
-### Programming Notes
-
-ord(c) - Given a string representing one Unicode character, return an integer representing the Unicode code point of that character. For example, ord('a') returns the integer 97 and ord('€') (Euro sign) returns 8364.
-
-Sometimes we need to initialize a list in advance to  have a particular number of elements. 
-[0]*26 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-[0 for i in range(26)] =  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-
-Python 3 does not have cmp. If you really need the cmp() functionality, you could use the expression (a > b) - (a < b) as the equivalent for cmp(a,b).)
-
-### References
-
-* [Python list initialization - Zetcode ](http://zetcode.com/lang/python/lists/)
-* [Compare List - Tutorialspoint ](https://www.tutorialspoint.com/python/list_cmp.htm)
-* [Cmp doesn't exist in Python 3 - Stackoverflow](https://stackoverflow.com/questions/22490366/cmp-isnt-woking-for-me-python)
 
 # Nesting Dictionary
 
