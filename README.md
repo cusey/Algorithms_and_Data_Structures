@@ -80,7 +80,7 @@ This is example how to build nested Dictionary with Python.
 
 This is example how to build nested List with Python.
 
-# Stack - Decimal to Binary Conversion
+# Stack (Decimal to Binary Conversion)
 
 ### Programming Notes
 
@@ -89,7 +89,7 @@ I used a Stack Data Structure.
 ### References  
 * [Decimal to Binary Conversion](https://www.electronics-tutorials.ws/binary/bin_2.html)
 
-# Stack - Simple Balanced Parentheses
+# Stack (Simple Balanced Parentheses)
 
 ### Description
 
