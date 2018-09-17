@@ -11,6 +11,26 @@ element. I used the Pop Method to remove elements from front and rear of the arr
 ### References
 * [5.1 More on Lists](https://docs.python.org/3.1/tutorial/datastructures.html)
 
+## Linked List
+
+## List - Anagram (Checking Off)
+
+## List - Anagram (Sort and Compare)
+
+## List - Anagram(Count and Compare)
+
+## Nesting Dictionary
+
+## Neting List
+
+## Stack - Decimal to Binary Conversion
+
+## Stack - Simple Balanced Parentheses
+
+## Stack
+
+
+
 
 
  
