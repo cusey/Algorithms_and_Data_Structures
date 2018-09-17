@@ -32,7 +32,13 @@ true. If the iterable is empty, return False.
 
 ## List - Anagram (Sort and Compare)
 
-### Description 
+### Description
+
+Sort and Compare - So, if we begin by sorting each string alphabetically, from a to z, we will end up with the same string if the original two strings are anagrams
+
+
+
+
 
 ### Programming notes
 
