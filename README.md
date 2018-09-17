@@ -59,14 +59,11 @@ Sometimes we need to initialize a list in advance to  have a particular number o
 
 Python 3 does not have cmp. If you really need the cmp() functionality, you could use the expression (a > b) - (a < b) as the equivalent for cmp(a,b).)
 
-
-
-
-
-
-
-
 ### References
+
+* [Python list initialization - Zetcode ](http://zetcode.com/lang/python/lists/)
+* [Compare List - Tutorialspoint ](https://www.tutorialspoint.com/python/list_cmp.htm)
+* [Cmp doesn't exist in Python 3 - Stackoverflow] (https://stackoverflow.com/questions/22490366/cmp-isnt-woking-for-me-python)
 
 ## Nesting Dictionary
 
