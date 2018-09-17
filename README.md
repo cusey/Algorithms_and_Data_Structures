@@ -15,9 +15,33 @@ element. I used the Pop Method to remove elements from front and rear of the arr
 
 ## List - Anagram (Checking Off)
 
+### Description  
+
+Checking Off - This method uses the first list to compares to the second list. When this program finds a match it setting the value it the second list to None.
+
+
+
+
+
+### Programming Notes
+
+### References
+
 ## List - Anagram (Sort and Compare)
 
+### References
+
+### References
+
+### References
+
 ## List - Anagram(Count and Compare)
+
+### References
+
+### References
+
+### References
 
 ## Nesting Dictionary
 
