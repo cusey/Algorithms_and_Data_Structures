@@ -57,15 +57,18 @@ print('Length', link.len() )
 
 print('-'*20)
 '''
-********** Linked List **********
-('HEAD DATA: ', 0, ' NEXT NODE: ', <__main__.Node instance at 0x10cc6e7a0>)
+OUTPUT:
 
-('DATA: ', 0, ' NEXT NODE: ', <__main__.Node instance at 0x10cc6e7a0>)
-('DATA: ', 1, ' NEXT NODE: ', <__main__.Node instance at 0x10cc6e7e8>)
-('DATA: ', 2, ' NEXT NODE: ', <__main__.Node instance at 0x10cc6e830>)
-('DATA: ', 3, ' NEXT NODE: ', <__main__.Node instance at 0x10cc6e878>)
+********** Linked List **********
+HEAD DATA:  0  NEXT NODE:  <__main__.Node object at 0x7f5335f8e828>
+
+DATA:  0  NEXT NODE:  <__main__.Node object at 0x7f5335f8e828>
+DATA:  1  NEXT NODE:  <__main__.Node object at 0x7f5335f8e860>
+DATA:  2  NEXT NODE:  <__main__.Node object at 0x7f5335f8e898>
+DATA:  3  NEXT NODE:  <__main__.Node object at 0x7f5335f8e8d0>
+DATA:  4  NEXT NODE:  None
 --------------------
-('Length', 4)
+Length 5
 --------------------
 '''
 
