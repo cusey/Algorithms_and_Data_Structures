@@ -37,7 +37,7 @@ Sort and Compare - So, if we begin by sorting each string alphabetically, from a
 
 ### Programming notes
 
-I used the Python Build-in **Sort** Function to alphabetical order the two lists before the comparing the two lists
+I used the Python Build-in **Sort** Function to alphabetical order the two lists before comparing the two lists together to see if they are the same.
 
 ### References
 
