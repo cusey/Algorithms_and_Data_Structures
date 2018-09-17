@@ -1,9 +1,5 @@
 #python 3.5.2
 
-'''
-Decimal to Binary Conversion (https://www.electronics-tutorials.ws/binary/bin_2.html)
-'''
-
 class Stack:
 
     def __init__(self):
