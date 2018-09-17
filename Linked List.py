@@ -31,6 +31,8 @@ class LinkedList:
         while pointer.nextNode != None:
             print('DATA: ',pointer.dataNode, ' NEXT NODE: ', pointer.nextNode)
             pointer = pointer.nextNode
+            
+        print('DATA: ',pointer.dataNode, ' NEXT NODE: ', pointer.nextNode)
 
     def len(self):
         count = 0
@@ -38,6 +40,8 @@ class LinkedList:
         while pointer.nextNode != None:
             count = count + 1
             pointer = pointer.nextNode
+            
+        count = count + 1
         return count
 
 
