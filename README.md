@@ -51,6 +51,10 @@ First I initialize two arrays with all zeroes this will prepresent each letter i
 
 ### Programming Notes
 
+ord(c) - Given a string representing one Unicode character, return an integer representing the Unicode code point of that character. For example, ord('a') returns the integer 97 and ord('€') (Euro sign) returns 8364.
+
+
+
 
 ### References
 
