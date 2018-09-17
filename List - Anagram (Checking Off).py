@@ -1,15 +1,5 @@
 #python 3.5.2
 
-'''
-Checking Off - This method uses the first list compares to the second list. When the method finds a match it setting the
-value it the second list to None.
-
-Python Built-in Functions: (https://docs.python.org/3/library/functions.html#any)
-any(iterable)- Return True if any element of the iterable is true. If the iterable is empty, return False. 
-https://www.programiz.com/python-programming/methods/built-in/any
-
-'''
-
 def areAnagram(firstWord, secondWord, debug):
         firstList = list(firstWord)
         secondList = list(secondWord)
