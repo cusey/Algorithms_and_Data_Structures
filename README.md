@@ -47,13 +47,10 @@ I used the Python Build-in **Sort** Function to alphabetical order the two lists
 
 ### Description
 
-
 First I initialize two arrays with all zeroes this will prepresent each letter in the alphabet.  Then I count the occuance of letter in both strings.  After counting the occurance of each letter I check to see if both string have the same number letter in each string. 
 
-
-
-
 ### Programming Notes
+
 
 ### References
 
