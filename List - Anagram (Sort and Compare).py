@@ -1,9 +1,4 @@
 #python 3.5.2
-'''
-Sort and Compare -  So, if we begin by sorting each string alphabetically, 
-from a to z, we will end up with the same string if the original two 
-strings are anagrams
-'''
 
 def areAnagram(firstWord, secondWord):
     firstList = list(firstWord)
