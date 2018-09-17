@@ -22,24 +22,12 @@ Checking Off - This method uses the first list to compares to the second list. W
 
 ### Programming Notes
 
-
-
-I used the Python Built-in Functions any to check if the
-list caontains all Nones. The Any Return True if any element of the iterable is
+I used the Python Built-in Functions ANY to check if the list contains all Nones. The Any Return True if any element of the iterable is
 true. If the iterable is empty, return False. 
-
-
-
 
 ### References
 
-
-
-*[Any Method -
-Programiz](https://www.programiz.com/python-programming/methods/built-in/any)
-
-
-
+*[Any Method - Programiz](https://www.programiz.com/python-programming/methods/built-in/any)
 
 
 ## List - Anagram (Sort and Compare)
