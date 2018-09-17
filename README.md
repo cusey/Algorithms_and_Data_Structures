@@ -17,7 +17,7 @@ element. I used the Pop Method to remove elements from front and rear of the arr
 
 ### Description  
 
-Checking Off - This method uses the first list to compares to the second list. When this program finds a match it setting the value it the second list to None.
+Checking Off - This method uses the first list to compares to the second list. When this program finds a match it sets the value it the second list to None.
 
 
 ### Programming Notes
@@ -32,17 +32,17 @@ true. If the iterable is empty, return False.
 
 ## List - Anagram (Sort and Compare)
 
-### References
+### Description 
 
-### References
+### Programming notes
 
 ### References
 
 ## List - Anagram(Count and Compare)
 
-### References
+### Description
 
-### References
+### Programming Notes
 
 ### References
 
@@ -55,10 +55,3 @@ true. If the iterable is empty, return False.
 ## Stack - Simple Balanced Parentheses
 
 ## Stack
-
-
-
-
-
- 
-
