@@ -96,7 +96,7 @@ the algorithm is straightforward. Starting with an empty stack, process the pare
 If, on the other hand, a symbol is a closing parenthesis, pop the stack. As long as it is possible to pop the stack to match every
 closing symbol, the parentheses remain balanced. If at any time there is no opening symbol on the stack to match a closing symbol, the string is not balanced properly. At the end of the string, when all symbols have been processed, the stack should be empty.
 
-# Programming Notes
+### Programming Notes
 
 I used a Stack Data Structure.
 
