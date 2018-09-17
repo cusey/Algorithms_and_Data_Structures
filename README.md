@@ -22,8 +22,7 @@ Checking Off - This method uses the first list to compares to the second list. W
 
 ### Programming Notes
 
-I used the Python Built-in Functions ANY to check if the list contains all Nones. The Any Return True if any element of the iterable is
-true. If the iterable is empty, return False. 
+I used the Python Built-in **Any** Function to check if the list contains all Nones. The Any Return True if any element of the iterable is true. If the iterable is empty, return False. 
 
 ### References
 
@@ -36,14 +35,13 @@ true. If the iterable is empty, return False.
 
 Sort and Compare - So, if we begin by sorting each string alphabetically, from a to z, we will end up with the same string if the original two strings are anagrams
 
-
-
-
-
 ### Programming notes
+
+I used the Python Build-in **Sort** Function to alphabetical order the two lists before the comparing the two lists
 
 ### References
 
+* [Sorting HOW TO](https://docs.python.org/3.3/howto/sorting.html)
 ## List - Anagram(Count and Compare)
 
 ### Description
