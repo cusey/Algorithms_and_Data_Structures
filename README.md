@@ -67,7 +67,15 @@ Python 3 does not have cmp. If you really need the cmp() functionality, you coul
 
 ## Nesting Dictionary
 
+### Description  
+
+This is example how to build nested Dictionary with Python.
+
 ## Neting List
+
+### Description  
+
+This is example how to build nested List with Python.
 
 ## Stack - Decimal to Binary Conversion
 
