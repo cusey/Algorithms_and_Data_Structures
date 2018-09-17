@@ -1,6 +1,6 @@
 # Algorithms and Data Structures
 
-## Deque
+# Deque
 ### Description  
 (usually pronounced like "deck") is an irregular acronym of double-ended queue. Double-ended queues are sequence containers with dynamic sizes that can be expanded or contracted on both ends (either its front or its back).
 
@@ -11,9 +11,9 @@ element. I used the Pop Method to remove elements from front and rear of the arr
 ### References
 * [5.1 More on Lists](https://docs.python.org/3.1/tutorial/datastructures.html)
 
-## Linked List
+# Linked List
 
-## List - Anagram (Checking Off)
+# List - Anagram (Checking Off)
 
 ### Description  
 
@@ -29,7 +29,7 @@ I used the Python Built-in **Any** Function to check if the list contains all No
 * [Any Method - Programiz](https://www.programiz.com/python-programming/methods/built-in/any)
 
 
-## List - Anagram (Sort and Compare)
+# List - Anagram (Sort and Compare)
 
 ### Description
 
@@ -43,7 +43,7 @@ I used the Python Build-in **Sort** Function to alphabetical order the two lists
 
 * [Sorting HOW TO](https://docs.python.org/3.3/howto/sorting.html)
 
-## List - Anagram(Count and Compare)
+# List - Anagram(Count and Compare)
 
 ### Description
 
@@ -65,19 +65,19 @@ Python 3 does not have cmp. If you really need the cmp() functionality, you coul
 * [Compare List - Tutorialspoint ](https://www.tutorialspoint.com/python/list_cmp.htm)
 * [Cmp doesn't exist in Python 3 - Stackoverflow](https://stackoverflow.com/questions/22490366/cmp-isnt-woking-for-me-python)
 
-## Nesting Dictionary
+# Nesting Dictionary
 
 ### Description  
 
 This is example how to build nested Dictionary with Python.
 
-## Neting List
+# Neting List
 
 ### Description  
 
 This is example how to build nested List with Python.
 
-## Stack - Decimal to Binary Conversion
+# Stack - Decimal to Binary Conversion
 
 ### Programming Notes
 
@@ -86,7 +86,7 @@ I used a Stack Data Structure.
 ### References  
 * [Decimal to Binary Conversion](https://www.electronics-tutorials.ws/binary/bin_2.html)
 
-## Stack - Simple Balanced Parentheses
+# Stack - Simple Balanced Parentheses
 
 ### Description
 
@@ -100,4 +100,4 @@ closing symbol, the parentheses remain balanced. If at any time there is no open
 
 I used a Stack Data Structure.
 
-## Stack
+# Stack
