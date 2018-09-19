@@ -81,6 +81,8 @@ I used the Python Build-in **Sort** Function to alphabetical order the two lists
 
 * [Sorting HOW TO](https://docs.python.org/3.3/howto/sorting.html)
 
+# List - Maximum Number (Linear Search) 
+
 # Nesting Dictionary
 
 ### Description  
@@ -92,6 +94,10 @@ This is example how to build nested Dictionary with Python.
 ### Description  
 
 This is example how to build nested List with Python.
+
+# Queue
+
+# Recursion (Calculating the Sum)
 
 # Stack (Decimal to Binary Conversion)
 
