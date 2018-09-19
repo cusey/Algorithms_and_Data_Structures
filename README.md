@@ -11,6 +11,12 @@ element. I used the Pop Method to remove elements from front and rear of the arr
 ### References
 * [5.1 More on Lists](https://docs.python.org/3.1/tutorial/datastructures.html)
 
+# Linked List (Order List)
+
+### Description    
+
+The order of the items is sort in ascending order.
+
 # Linked List (Unordered List)
 
 ### Description    
