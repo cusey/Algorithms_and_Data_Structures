@@ -103,6 +103,8 @@ This is example how to build nested List with Python.
 
 # Queue
 
+# Recursion  (Factorial)
+
 # Recursion (Calculating the Sum)
 
 # Stack (Decimal to Binary Conversion)
