@@ -1,5 +1,9 @@
 # Algorithms and Data Structures
 
+# Introduction
+
+![Linked List Define](https://github.com/cusey/ImageForWiki/blob/master/Algorithms_and_Data_Structures/Linked%20List%20Definition.png)
+
 # Deque
 ### Description  
 (usually pronounced like "deck") is an irregular acronym of double-ended queue. Double-ended queues are sequence containers with dynamic sizes that can be expanded or contracted on both ends (either its front or its back).
