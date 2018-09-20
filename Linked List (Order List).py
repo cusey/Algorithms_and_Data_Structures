@@ -35,28 +35,30 @@ class LinkedList:
         self.count = self.count + 1 
 
         if self.head == None:
-            #Creating new Linked List
+        #Creating new Linked List
             self.head = newNode
         else:
+        #Linked List has node in it    
             pointer = self.head
             
             
             if pointer.getData() > data:
-            #Insert before head
+            #Insertion point of node is before HEAD node
                 oldHead = pointer
                 self.head  = newNode
                 self.head.setNext(oldHead)
             
             else:
-            #Insert node after head  
+            #If insertion point of node is after HEAD node  
                 while pointer.getNext() != None and self.peak(pointer).getData() < data:
-                #Finding correct Node
+                #Finding correct insertion point
                     pointer = pointer.getNext()
                 
                 if  pointer.getNext() != None:  
-                #In middle of Linked List
+                #If insertion point of the node is in the middle of Linked List (Only have when add to middle linked list)
                     newNode.setNext(pointer.getNext())
  
+                #Adding TOP POINTER LINK fron new node (Will always have if adding middle or tail of linked list)
                 pointer.setNext(newNode)
 
         self.showLinkedList()     
