@@ -1,6 +1,8 @@
 # Algorithms and Data Structures
 
-# Introduction
+# Introduction  
+
+The three nodes are head, tail, and pointer nodes. 
 
 ![Linked List Define](https://github.com/cusey/ImageForWiki/blob/master/Algorithms_and_Data_Structures/Linked%20List%20Definition.png)
 
