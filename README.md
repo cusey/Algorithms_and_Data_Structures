@@ -109,7 +109,7 @@ This is example how to build nested List with Python.
 
 # Recursion (Converting Base)
 
-![ Converting Decimal to Hexadecimal ] (https://github.com/cusey/ImageForWiki/blob/master/Algorithms_and_Data_Structures/Converting_Deci_To_Hexa.png)
+![ Converting Decimal to Hexadecimal ](https://github.com/cusey/ImageForWiki/blob/master/Algorithms_and_Data_Structures/Converting_Deci_To_Hexa.png)
 
 # Stack (Decimal to Binary Conversion)
 
