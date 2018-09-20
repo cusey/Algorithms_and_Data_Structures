@@ -2,7 +2,7 @@
 
 # Introduction  
 
-The three nodes are head, tail, and pointer nodes. 
+The three nodes are HEAD, TAIL, and POINTER nodes. The HEAD and TAIL nodes are the first and list nodes in the linked list, which does not have any nodes above or below these nodes respectly. The POINTER node is used when travelering the linked list. When traveling the linked list we start at the HEAD node and move down the linked list to the TAIL node moving the POINTER node down the linked list.  Links are what connects the linked list together. The links are property variables of the node, which stores the memory address of the next node. The other property variables of the node can be any variable or variables the language surports. The TOP and BOTTOM POINTER LINK are the links above and below the current POINTER node respectly.
 
 ![Linked List Define](https://github.com/cusey/ImageForWiki/blob/master/Algorithms_and_Data_Structures/Linked%20List%20Definition.png)
 
