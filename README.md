@@ -113,6 +113,15 @@ This is example how to build nested List with Python.
 
 ![ Decimal to Hexadecimal ](https://github.com/cusey/ImageForWiki/blob/master/Algorithms_and_Data_Structures/Converting_Deci_To_Hexa.png)
 
+### Description  
+
+
+To populate to Result column you uses the Remainder Column and the Decimal to Hexadecimal Convertion Table. In this example in the Remainder Column is 15 (base 10) decimal so by using the table we the demical equality is F (base 16) Hexadecimal. 
+
+
+
+
+
 # Stack (Decimal to Binary Conversion)
 
 ### Programming Notes
