@@ -49,7 +49,12 @@ class Coins:
         return self.coinValueList[ self.counter ]
         
     def __repr__(self):
-        return 'Coins [ counter : ' + str( self.counter ) + ', results : ' + str( self.results ) + ', coinValueList : ' + str( self.coinValueList ) + ', coin:'+ str( self.coinValueList[ self.counter ] ) + ' ] '
+        return ('Coins [ '
+                  + 'counter : '+ str( self.counter ) 
+                  + ', results : ' + str( self.results )
+                  + ', coinValueList : ' + str( self.coinValueList )
+                  + ', coin: '+ str( self.coinValueList[ self.counter ] )
+                  + ' ] ' )
         
     def makeCoinChange( self, change ):
         
