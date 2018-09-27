@@ -125,6 +125,10 @@ This is example how to build nested List with Python.
 
 To populate to Result column you uses the Remainder Column and the Decimal to Hexadecimal Convertion Table. In this example in the Remainder Column is 15 (base 10) decimal so by using the table we the demical equality is F (base 16) Hexadecimal. 
 
+### Recursion (Make Currency Change)
+
+### Description 
+
 # Recursion Stack (Converting Base)
 
 # Stack (Decimal to Binary Conversion)
