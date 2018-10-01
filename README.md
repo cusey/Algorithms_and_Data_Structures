@@ -131,6 +131,8 @@ To populate to Result column you uses the Remainder Column and the Decimal to He
 
 # Recursion Stack (Converting Base)
 
+# Search - List (Binary)
+
 # Search - List (Sequential Search)
 
 # Stack (Decimal to Binary Conversion)
