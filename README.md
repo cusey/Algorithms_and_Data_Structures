@@ -25,6 +25,15 @@ element. I used the Pop Method to remove elements from front and rear of the arr
 ### References
 * [5.1 More on Lists](https://docs.python.org/3.1/tutorial/datastructures.html)
 
+# Hashing (Remained Method)
+
+### Description   
+
+With the Remained Methods first you count the number of elements you what to store. So the length of the 
+array will eaual the number of elements you want so each element will have place to be stored. When you
+do the divide by array length the remainer will always to equal or less than the number of element in the
+array.
+
 # Linked List (Order List)
 
 ### Description    
