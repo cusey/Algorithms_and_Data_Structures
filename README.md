@@ -1,4 +1,6 @@
 
+
+
 # Algorithms and Data Structures
 
 # Introduction  
@@ -37,6 +39,14 @@ If we assume our hash table has 11 slots, then we need to perform the extra step
 11 and keeping the remainder. In this case 210 % 11 is 1, so the phone number 436-555-4601 hashes 
 to slot 1. Some folding methods go one step further and reverse every other piece before the addition.
 For the above example, we get 43+56+55+64+01=219 which gives 219 % 11=10.
+
+# Hashing (Mid-Square Method)
+
+### Description 
+
+Another numerical technique for constructing a hash function is called the mid-square method. We first square the item, and 
+then extract some portion of the resulting digits. For example, if the item were 44, we would first compute 44^2 =  1,936. 
+By extracting the middle two digits, 93, and performing the remainder step, we get 5 (93 % 11). 
 
 # Hashing (Remained Method)
 
