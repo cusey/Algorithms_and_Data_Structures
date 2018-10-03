@@ -1,3 +1,4 @@
+
 # Algorithms and Data Structures
 
 # Introduction  
@@ -24,6 +25,18 @@ element. I used the Pop Method to remove elements from front and rear of the arr
 
 ### References
 * [5.1 More on Lists](https://docs.python.org/3.1/tutorial/datastructures.html)
+
+# Hashing (Folding Method)  
+
+### Description  
+The folding method for constructing hash functions begins by dividing the item into equal-size pieces 
+(the last piece may not be of equal size). These pieces are then added together to give the resulting 
+hash value. For example, if our item was the phone number 436-555-4601, we would take the digits and 
+divide them into groups of 2 (43,65,55,46,01). After the addition, 43+65+55+46+01, we get 210. 
+If we assume our hash table has 11 slots, then we need to perform the extra step of dividing by 
+11 and keeping the remainder. In this case 210 % 11 is 1, so the phone number 436-555-4601 hashes 
+to slot 1. Some folding methods go one step further and reverse every other piece before the addition.
+For the above example, we get 43+56+55+64+01=219 which gives 219 % 11=10.
 
 # Hashing (Remained Method)
 
