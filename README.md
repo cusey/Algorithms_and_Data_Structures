@@ -167,6 +167,8 @@ To populate to Result column you uses the Remainder Column and the Decimal to He
 
 # Search - List (Sequential Search)
 
+# Sort (Bubble)  
+
 # Stack (Decimal to Binary Conversion)
 
 ### Programming Notes
