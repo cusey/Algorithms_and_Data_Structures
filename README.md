@@ -169,6 +169,8 @@ To populate to Result column you uses the Remainder Column and the Decimal to He
 
 # Sort (Bubble)  
 
+![Bubble Sort](https://github.com/cusey/ImageForWiki/blob/master/Algorithms_and_Data_Structures/bubble_pic.PNG)  
+
 # Stack (Decimal to Binary Conversion)
 
 ### Programming Notes
