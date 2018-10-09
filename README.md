@@ -172,6 +172,12 @@ To populate to Result column you uses the Remainder Column and the Decimal to He
 The bubble sort makes multiple passes through a list. It compares adjacent items and exchanges those that are out of order. Each pass through the list places the next largest value in its proper place. In essence, each item “bubbles” up to the location where it belongs.      
 ![Bubble Sort](https://github.com/cusey/ImageForWiki/blob/master/Algorithms_and_Data_Structures/bubble_pic.PNG)   
 
+# Sort (Selection)
+
+The selection sort improves on the bubble sort by making only one exchange for every pass through the list. In order to do this, a selection sort looks for the largest value as it makes a pass and, after completing the pass, places it in the proper location. As with a bubble sort, after the first pass, the largest item is in the correct place. After the second pass, the next largest is in place.
+
+![Selection Sort](https://github.com/cusey/ImageForWiki/blob/master/Algorithms_and_Data_Structures/insertion_pic.PNG)  
+
 # Stack (Decimal to Binary Conversion)
 
 ### Programming Notes
