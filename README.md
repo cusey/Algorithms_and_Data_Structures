@@ -167,9 +167,10 @@ To populate to Result column you uses the Remainder Column and the Decimal to He
 
 # Search - List (Sequential Search)
 
-# Sort (Bubble)  
+# Sort (Bubble)   
 
-![Bubble Sort](https://github.com/cusey/ImageForWiki/blob/master/Algorithms_and_Data_Structures/bubble_pic.PNG)  
+The bubble sort makes multiple passes through a list. It compares adjacent items and exchanges those that are out of order. Each pass through the list places the next largest value in its proper place. In essence, each item “bubbles” up to the location where it belongs.      
+![Bubble Sort](https://github.com/cusey/ImageForWiki/blob/master/Algorithms_and_Data_Structures/bubble_pic.PNG)   
 
 # Stack (Decimal to Binary Conversion)
 
