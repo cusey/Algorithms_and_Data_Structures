@@ -170,7 +170,13 @@ To populate to Result column you uses the Remainder Column and the Decimal to He
 # Sort (Bubble)   
 
 The bubble sort makes multiple passes through a list. It compares adjacent items and exchanges those that are out of order. Each pass through the list places the next largest value in its proper place. In essence, each item “bubbles” up to the location where it belongs.      
-![Bubble Sort](https://github.com/cusey/ImageForWiki/blob/master/Algorithms_and_Data_Structures/bubble_pic.PNG)   
+![Bubble Sort](https://github.com/cusey/ImageForWiki/blob/master/Algorithms_and_Data_Structures/bubble_pic.PNG)  
+
+# Sort (Insertion)  
+
+It always maintains a sorted sublist in the lower positions of the list. Each new item is then “inserted” back into the previous sublist such that the sorted sublist is one item larger
+
+![Insertion Sort](https://github.com/cusey/ImageForWiki/blob/master/Algorithms_and_Data_Structures/insertion_pic.PNG)
 
 # Sort (Selection)
 
