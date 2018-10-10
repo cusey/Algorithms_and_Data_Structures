@@ -174,15 +174,15 @@ The bubble sort makes multiple passes through a list. It compares adjacent items
 
 # Sort (Insertion)  
 
-It always maintains a sorted sublist in the lower positions of the list. Each new item is then “inserted” back into the previous sublist such that the sorted sublist is one item larger
+It always maintains a sorted sublist in the lower positions of the list. Each new item is then “inserted” back into the previous sublist such that the sorted sublist is one item larger  
 
 ![Insertion Sort](https://github.com/cusey/ImageForWiki/blob/master/Algorithms_and_Data_Structures/insertion_pic.PNG)
 
 # Sort (Selection)  
 
-The selection sort improves on the bubble sort by making only one exchange for every pass through the list. In order to do this, a selection sort looks for the largest value as it makes a pass and, after completing the pass, places it in the proper location. As with a bubble sort, after the first pass, the largest item is in the correct place. After the second pass, the next largest is in place.
+The selection sort improves on the bubble sort by making only one exchange for every pass through the list. In order to do this, a selection sort looks for the largest value as it makes a pass and, after completing the pass, places it in the proper location. As with a bubble sort, after the first pass, the largest item is in the correct place. After the second pass, the next largest is in place.   
 
-![Selection Sort](https://github.com/cusey/ImageForWiki/blob/master/Algorithms_and_Data_Structures/insertion_pic.PNG)  
+![Selection Sort](https://github.com/cusey/ImageForWiki/blob/master/Algorithms_and_Data_Structures/insertion_pic.PNG)     
 
 # Stack (Decimal to Binary Conversion)  
 
