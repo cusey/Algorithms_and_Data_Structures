@@ -178,20 +178,20 @@ It always maintains a sorted sublist in the lower positions of the list. Each ne
 
 ![Insertion Sort](https://github.com/cusey/ImageForWiki/blob/master/Algorithms_and_Data_Structures/insertion_pic.PNG)
 
-# Sort (Selection)
+# Sort (Selection)  
 
 The selection sort improves on the bubble sort by making only one exchange for every pass through the list. In order to do this, a selection sort looks for the largest value as it makes a pass and, after completing the pass, places it in the proper location. As with a bubble sort, after the first pass, the largest item is in the correct place. After the second pass, the next largest is in place.
 
 ![Selection Sort](https://github.com/cusey/ImageForWiki/blob/master/Algorithms_and_Data_Structures/insertion_pic.PNG)  
 
-# Stack (Decimal to Binary Conversion)
+# Stack (Decimal to Binary Conversion)  
 
-### Programming Notes
+### Programming Notes  
 
-I used a Stack Data Structure.
+I used a Stack Data Structure.   
 
 ### References  
-* [Decimal to Binary Conversion](https://www.electronics-tutorials.ws/binary/bin_2.html)
+* [Decimal to Binary Conversion](https://www.electronics-tutorials.ws/binary/bin_2.html)   
 
 # Stack (Simple Balanced Parentheses)
 
