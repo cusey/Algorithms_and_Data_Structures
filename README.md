@@ -5,6 +5,8 @@ Customers of the Jersey National Bank (JNB) can Pay Bills and Managing Payees
 
 ## Getting Started 
 
+Download the copy into your favorite Python text editor      
+
 ## Built With
 * Python 6 
 
