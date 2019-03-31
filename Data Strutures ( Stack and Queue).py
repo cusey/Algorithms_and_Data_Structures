@@ -10,7 +10,7 @@ class Stack:
         return len(self.items)
     
     def push(self, data):
-    #THE ONLY BETWEEN STACK AND QUEUE
+    #THE ONLY DIFFERENCE BETWEEN STACK AND QUEUE (Insertion and Deletion happen on the same end)
         self.items.insert(len(self.items),data)
        
     def pop(self):
@@ -30,7 +30,7 @@ class Qeueu:
         return len(self.items)
     
     def enqueue(self, data):
-    #THE ONLY BETWEEN STACK AND QUEUE
+    #THE ONLY DIFFERENCE BETWEEN STACK AND QUEUE (Insertion and Deletion happen on different ends)
         self.items.insert(0,data)
        
     def dequeue(self):
