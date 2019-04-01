@@ -25,14 +25,14 @@ def converDecToBinary(decimalNo, debug):
 
     s = Stack()
     temp = decimalNo
-    remaider = 0
+    remainder = 0
     pushNo = 0
     
     result = ""
 
     while temp > 0:
-        remaider = temp%2
-        if remaider == 0:
+        remainder = temp%2
+        if remainder == 0:
             if debug :
                 pushNo = 0
             s.push('0')
@@ -44,15 +44,42 @@ def converDecToBinary(decimalNo, debug):
         temp = temp//2
         if debug :
             print( temp , 'remainder', pushNo)
+            print( s.items )
             
+
+        print('-'*20)
+        
+    print('REVERSE THE NUMBERS')   
+        
     while  s.size() != 0:
         if debug :
             print( s.items )
         result = result + s.pop()
         
+    print('-'*20)
+        
     return result
         
  
         
-print( converDecToBinary(294 , True)  )
+print( converDecToBinary(6 , True)  )
 print('-'*20)
+
+'''
+3 remainder 0
+['0']
+--------------------
+1 remainder 1
+['0', '1']
+--------------------
+0 remainder 1
+['0', '1', '1']
+--------------------
+REVERSE THE NUMBERS
+['0', '1', '1']
+['0', '1']
+['0']
+--------------------
+110
+--------------------
+'''
