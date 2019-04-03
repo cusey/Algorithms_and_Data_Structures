@@ -19,7 +19,7 @@ class MyMath():
         return max
 
 
-print ('Test first element in the list is largest number: ', MyMath( [12,0,9,3,0] ).findMaxNo() )
+print ('Test first element in the list is the largest number: ', MyMath( [12,0,9,3,0] ).findMaxNo() )
 print ('Test the largest number is in middle of the list : ', MyMath( [0,0,12,3,0] ).findMaxNo() )
 print ('Test last element in the list is largest number: ', MyMath( [12,0,9,3,0] ).findMaxNo() )
 
@@ -27,7 +27,7 @@ print ('Test last element in the list is largest number: ', MyMath( [12,0,9,3,0]
 
 OUTPUT:
 
-Test first element in the list is largest number:  12
+Test first element in the list is the largest number:  12
 
 Test the largest number is in middle of the list :  12
 
