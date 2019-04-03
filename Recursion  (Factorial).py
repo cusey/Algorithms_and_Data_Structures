@@ -1,52 +1,48 @@
 #python 3.5.2
 
-def factorial(n):
+def fact_while(n):
     
     result = 1
     
     while n != 1:
-        print( '{}  * {}'.format(result, n) )
+        result_temp = result # FOR PRINT
+        
         result = result * n
+        print( '(result= {}) = (result= {})  * (n= {})'.format( result, result_temp, n) )
         
         n = n -1
         
     return result 
 
-
-def recfactorial(n):
-    
-    if n == 1:
-        print( ' {} '.format(n ) )
-        
-        return n
-    else:
-        print(' {}  * recfactorial ( {} )'.format(n, n-1) )
-        return n * recfactorial( n -1 )
-    
-    
-    
-print( factorial( 5 ) )   
+print( fact_while( 3 ) )   
 print('-'*20)
-    
-print( recfactorial( 5 ) )
-print('-'*20)
-
 
 '''
-OUTPUT:
+(result= 3) = (result= 1)  * (n= 3)
+(result= 6) = (result= 3)  * (n= 2)
+6
+--------------------
+'''
 
-1  * 5
-5  * 4
-20  * 3
-60  * 2
-120
+
+def fact_recurion(n , print_out):
+    
+    if n != 1:
+        print_out = print_out + str(n) + '*'
+        return n * fact_recurion( n -1 , print_out)    
+ 
+    else:  
+      print( print_out + str(n) )
+      return n
+    
+    
+print( fact_recurion( 3 , '' ) )
+print('-'*20)
+
+'''
+3*2*1
+6
 --------------------
- 5  * recfactorial ( 4 )
- 4  * recfactorial ( 3 )
- 3  * recfactorial ( 2 )
- 2  * recfactorial ( 1 )
- 1 
-120
---------------------
+'''
 
 '''
