@@ -18,6 +18,7 @@ print( fact_while( 3 ) )
 print('-'*20)
 
 '''
+OUTPUT: 
 (result= 3) = (result= 1)  * (n= 3)
 (result= 6) = (result= 3)  * (n= 2)
 6
@@ -40,6 +41,7 @@ print( fact_recurion( 3 , '' ) )
 print('-'*20)
 
 '''
+OUTPUT: 
 3*2*1
 6
 --------------------
