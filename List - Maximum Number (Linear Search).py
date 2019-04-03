@@ -1,7 +1,7 @@
 #python 3.5.2
 
 '''
-Python functions to find the maximum number in a list that compares each 
+This Python functions finds the maximum number in a list by compares each 
 number to every other number on the list.
 '''
 
