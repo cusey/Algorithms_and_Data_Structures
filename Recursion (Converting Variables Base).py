@@ -1,99 +1,74 @@
 #python 3.5.2
 
-class Stack:
-    def __init__(self):
-        self.items = []
-        
-    def size(self):
-        return len(self.items)
+class Convert_Symbol:
     
-    def push(self, data):
-        self.items.insert(len(self.items),data)
-       
-    def pop(self):
-        return self.items.pop( len(self.items) - 1 ) 
-    
-    def peek(self):
-        return self.items[ len(self.items) - 1 ]
-    
-    def isEmpty(self):
-        return self.items == []
-    
-    
-    
-def convertBase(number, base):
-    
-    convertString = '0123456789ABCDEF'
-    s = Stack()
-    
-    result = ''
-    
-    while number != 0:
-        print( ' {} {}'.format(convertString [number % base ] , result)  ) 
-        s.push( convertString [number % base ] )
-        number = number // base
-     
-    while not s.isEmpty() :  
-        result = result + s.pop() 
-        
-    return result
-    
- 
-def recConvertBase(number, base, stackObj ):
-    convertString = '0123456789ABCDEF'
-    result = ''
-    
-    if number != 0:
-       print(' recConvertBase( {} ,{})  convertString [{}] = {} result = {} )'.format(number // base , base , number % base  , convertString [number % base ] , result) ) 
-       stackObj.push( convertString [number % base ] )
-       return result + recConvertBase(number // base, base,  stackObj) 
-    else:
-        
-    
-        print(' number = {}, stack size = {}'.format(number, stackObj.size() )  ) 
-        
-        while stackObj.size() != 0 : 
-            popValue = stackObj.pop()
-            result = result + popValue
-            print( 'pop() : {} result = {}'.format( popValue , result) )
-        return result
-        
-    return result      
-          
+    def __init__(self, number, base, symbol_list, logger_on=False):
+        self.number = number
+        self.base = base
+        self.symbol_list = symbol_list
+        self.logger_on = logger_on
+        self.result = ''
 
-print('-'*20)         
-           
-print( convertBase(48879, 16) ) 
+    def newSymbol(self):
+        return self.symbol_list [ self.number % self.base ]
+    
+    def floorDivision(self):
+        return self.number // self.base
+    
+    def logger(self):
+        if ( self.logger_on) : 
+            print( ' base = ' + str(self.base) )
+            print( ' number = ' + str(self.number) )
+            print( ' (number='+ str( self.number) +') % (base='+ str(self.base)+') = ' + str(self.number % self.base) ) 
+            print( ' symbol_list [ (number='+ str( self.number) +') % (base='+ str(self.base)+') ] = ' + str(self.symbol_list[self.number % self.base]) )
 
-print('-'*20) 
 
-s = Stack()
-print (recConvertBase(48879, 16, s) ) 
+# *************************** MAIN RECURSION ***************************
+
+def convert_recursion(obj):
+    
+   result = ''
+    
+   if( obj.number != 0) :
+       obj.logger()
+        
+       obj.result  = obj.newSymbol() + obj.result
+       obj.number = obj.floorDivision()
+
+       return convert_recursion(obj)
+   else:
+       return obj.result 
+        
+    
+dec_to_hex = Convert_Symbol(48879, 16, '0123456789ABCDEF' )       
+        
+print( convert_recursion(dec_to_hex) )
 
 print('-'*20)
 
 '''
-OUTPUT:
-
---------------------
- F 
- E 
- E 
- B 
-BEEF
---------------------
- recConvertBase( 3054 ,16)  convertString [15] = F result =  )
- recConvertBase( 190 ,16)  convertString [14] = E result =  )
- recConvertBase( 11 ,16)  convertString [14] = E result =  )
- recConvertBase( 0 ,16)  convertString [11] = B result =  )
- number = 0, stack size = 4
-pop() : B result = B
-pop() : E result = BE
-pop() : E result = BEE
-pop() : F result = BEEF
 BEEF
 --------------------
 '''
 
+dec_to_oct = Convert_Symbol(4242, 8, '01234567' )       
+        
+print( convert_recursion(dec_to_oct) )
 
+print('-'*20)
 
+'''
+10222
+--------------------
+'''
+
+dec_to_base_six = Convert_Symbol(412, 6, '012345' )       
+        
+print( convert_recursion(dec_to_base_six) )
+
+print('-'*20)
+
+'''
+1524
+--------------------
+'''
