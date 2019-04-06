@@ -1,188 +1,94 @@
-#python 3.5.2
+#python 3.6
 
-'''
-alist = [ 0,1,2,3,4,5,6,7,8,9]
+def find_insert(sorted, insert_value):
+    unfinished = True
+    count = 0
 
-print ( alist[ :3] )
-print ( alist[3:]  )
-'''
+    while unfinished and count < len(sorted):
 
-
-'''
-[0, 1, 2]
-[3, 4, 5, 6, 7, 8, 9]
-'''
-
-
-def convertIntToList(number):
-    tempList = []
-    tempList.append(number)
-    return tempList
-
-def printList( alist ):
-    print('New Array is:', alist)
-    print( '-'*20 )
-    return alist
-
-    
-def insert(alist,insertNo):
-    print('ARRAY',alist);
-    print('NUMBER TO INSERT',insertNo)
-    counter = 0
-    temp = convertIntToList(insertNo)
-
-    for element in alist:
-        print(element,'< ', insertNo,' = ', element > insertNo )
-        if element > insertNo:
-            #Insert at the front of the array
-            if counter == 0:
-                print( 'Insert at the front of the array' )
-                return printList( temp + alist )
-                
-            #Insert in the middle of the array
-            else:
-                print( 'Insert in the middle of the array' )
-                return printList( alist[:counter]+temp+alist[counter:] )
-                
-        else:
-            #Insert at the rear of the array
-            print( counter ,' == ', len( alist ) -1, ' = ', counter == len( alist ) -1 )
-            if counter == len( alist ) -1:
-                print( 'Insert at the rear of the array' )
-                return printList(  alist + temp )
-                
-            
-        counter = counter + 1
-            
-                
-   
-# Testing insert in the front of the array
+        if insert_value == sorted[count]:
+                                            # Having same value as the List element
+            sorted.insert(count, insert_value)
+            unfinished = False
+        elif insert_value < sorted[count]:
+                                            # Have one element AND array element is smaller then the insert number
+                                            # Have more than one element AND inserting before first element
+            sorted.insert(0, insert_value)
+            unfinished = False
+        elif len(sorted) == 1 and insert_value > sorted[count]:
+                                                                    # Have one element AND array element is larger then the insert number
+            sorted.insert(1, insert_value)
+            unfinished = False
+        elif count == (len(sorted) -1) and sorted[count] < insert_value:
+                                                                         # Inserting and the end of the array
+            sorted.insert(count + 1, insert_value)
+            unfinished = False
+        elif sorted[count] < insert_value and sorted[count + 1] > insert_value:
+                                                                                    # Inserting in the middle of the array
+            sorted.insert(count + 1, insert_value)
+            unfinished = False
 
 
-'''
-listfront = [40, 52, 60]
-print( insert(listfront, 39) )
-print( '-'*20 )
+        count = count + 1
 
-'''
+    return sorted
 
-'''
-ARRAY [40, 52, 60]
-NUMBER TO INSERT 39
-40 <  39  =  True
-Insert at the front of the array
-[39, 40, 52, 60]
---------------------
-'''
-# Testing insert in the rear of the array
-'''
-listRear = [40, 52, 60]
-print( insert(listRear, 70) )
-print( '-'*20 )
-'''
+# Having same value as the List element
 
-'''
-ARRAY [40, 52, 60]
-NUMBER TO INSERT 70
-40 <  70  =  False
-0  ==  2  =  False
-52 <  70  =  False
-1  ==  2  =  False
-60 <  70  =  False
-2  ==  2  =  True
-Insert at the rear of the array
-[40, 52, 60, 70]
---------------------
-'''
+print('1 find_insert: ', find_insert([2], 2))
+print('2 find_insert: ', find_insert([2, 8 ,9], 8))
+print('3 find_insert: ', find_insert([2, 8 ,9], 9))
 
+# Have one element AND inserting before first element
+print('4 find_insert: ', find_insert([8], 2))
 
-#Testing insert in the middle of the array
-'''
-listRear = [40, 52, 60]
-print( insert(listRear, 45) )
-print( '-'*20 )
-'''
+# Have more than one element AND inserting before first element
+print('5 find_insert: ', find_insert([2,8,9], 2))
 
-'''
-ARRAY [40, 52, 60]
-NUMBER TO INSERT 45
-40 <  45  =  False
-0  ==  2  =  False
-52 <  45  =  True
-Insert in the middle of the array
-[40, 45, 52, 60]
---------------------
-'''
+# Have one element AND array element is larger then the insert number
+print('6 find_insert: ', find_insert([2], 8))
 
-def sortInsert( alist ):
+# Inserting in the middle of the array
+print('7 find_insert: ', find_insert([2, 8], 5))
+print('8 find_insert: ', find_insert([2, 5, 8], 3))
 
-    tempList = alist.copy()
-    counter = 1
-
-    while counter < len( alist ) :
-        
-        stepList = []
-        if counter -1 == 0:
-            stepList = convertIntToList(tempList[0])
-        else:
-            stepList = tempList[:counter]
-            
-        tempList = insert( stepList, tempList[counter]) + tempList[counter+1:]    
-        counter = counter + 1
-        
-    return  tempList
-        
-        
-    
-
-
-startList = [ 52, 2, 30, 70, 1]
-print( startList )
-print( '-'*20 )
-print( '-'*20 )
-finalList =  sortInsert( startList )
-print( '-'*20 )
-print( '-'*20 )
-print( finalList  )
+# Inserting and the end of the array
+print('9 find_insert: ', find_insert([2, 3, 5, 8], 9))
+print('-' * 50)
 
 '''
 OUTPUT:
+1 find_insert:  [2, 2]
+2 find_insert:  [2, 8, 8, 9]
+3 find_insert:  [2, 8, 9, 9]
+4 find_insert:  [2, 8]
+5 find_insert:  [2, 2, 8, 9]
+6 find_insert:  [2, 8]
+7 find_insert:  [2, 5, 8]
+8 find_insert:  [2, 3, 5, 8]
+9 find_insert:  [2, 3, 5, 8, 9]
+--------------------------------------------------
+'''
 
-[52, 2, 30, 70, 1]
---------------------
---------------------
-ARRAY [52]
-NUMBER TO INSERT 2
-52 <  2  =  True
-Insert at the front of the array
-New Array is: [2, 52]
---------------------
-ARRAY [2, 52]
-NUMBER TO INSERT 30
-2 <  30  =  False
-0  ==  1  =  False
-52 <  30  =  True
-Insert in the middle of the array
-New Array is: [2, 30, 52]
---------------------
-ARRAY [2, 30, 52]
-NUMBER TO INSERT 70
-2 <  70  =  False
-0  ==  2  =  False
-30 <  70  =  False
-1  ==  2  =  False
-52 <  70  =  False
-2  ==  2  =  True
-Insert at the rear of the array
-New Array is: [2, 30, 52, 70]
---------------------
-ARRAY [2, 30, 52, 70]
-NUMBER TO INSERT 1
-2 <  1  =  True
-Insert at the front of the array
-New Array is: [1, 2, 30, 52, 70]
---------------------
---------------------
---------------------
-[1, 2, 30, 52, 70]
+unsorted = [2, 8, 5, 3, 9, 4]
+
+
+def insertionSort(unsorted):
+    sorted = []
+
+    for element in unsorted:
+        if len(sorted) == 0:
+            sorted.insert(0, element)
+        else:
+            sorted = find_insert(sorted, element)
+    return sorted
+
+
+print('insertionSort: ', insertionSort(unsorted))
+print('-' * 50)
+
+'''
+OUTPUT:
+insertionSort:  [2, 3, 4, 5, 8, 9]
+--------------------------------------------------
 '''
